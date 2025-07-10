@@ -49,6 +49,83 @@ nav ul li {
     box-shadow: rgb(240, 254, 255);
     
 }
+.title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    width: 517px;
+    height: 49px;
+  }  
+  .subtitle{
+    width: 517px;
+    height: 60px;
+    font-size: 25px;
+    color: #20202375;
+  }
+  .side-picture{
+    width: 403px;
+    height: 328px;
+  }
+   .content{
+    width: 517px;
+    height: 203px;
+   }
+   .container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1140px;
+    height: 328px;
+    padding: 135px;
+ }
+ #clr-2{
+    width: 229px;
+     height: 48px; 
+    padding: 36px 12px;
+    border-radius: 10px;
+    margin: auto;
+   
+  }
+  .users{
+    background-color: #7471cb4a;
+    width: 1140px;
+    height: 250px;
+    padding: 80px 50px;
+    margin:  10px 200px 50px;
+  }
+.section-title{
+    margin: 0 auto;
+    text-align: center;
+    width: 856px;
+    height: 45px;
+    color: #252432;
+    font-size: 38px;
+    font-weight: bold;
+}
+.users-lists{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.titles{
+    font-size: 80px;
+    color: #4E47FF;
+    font-weight: bold;
+    width: 128px;
+    height: 97px;
+    gap: 0px;
+}
+.titles-description{
+    font-size: 20px;
+    color: #00000019 ;
+    gap: 0px;
+
+  
+}
+    
+
 
 
     
