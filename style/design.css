@@ -1,3 +1,4 @@
+
 .raleway-normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -9,7 +10,7 @@
     background-image: url('../B12A01-landing-launchpad/Assets/Hero-bg.png');
     background-position: cover;
     width: 1465px;
-    height: 715px;
+    height: 712px;
     padding: 10px 20px 0px 200px;
 }
 .banner-content{
