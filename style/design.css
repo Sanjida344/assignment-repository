@@ -1,3 +1,10 @@
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
 .head{
     background-image: url('../B12A01-landing-launchpad/Assets/Hero-bg.png');
     background-position: cover;
@@ -59,7 +66,7 @@ nav ul li {
   .subtitle{
     width: 517px;
     height: 60px;
-    font-size: 25px;
+    font-size: 20px;
     color: #20202375;
   }
   .side-picture{
@@ -111,16 +118,18 @@ nav ul li {
 .skills{
     width: 1140px;
     height: 342px;
-    padding:  80px 50px;
-    margin:0px 200px 50px ;
+    padding:0px 200px 200px;  
+   
 }
 .titles{
+    font-style:normal ;
+    font-family: none;
     font-size: 80px;
     color: #4E47FF;
     font-weight: bold;
     width: 128px;
     height: 97px;
-    gap: 0px;
+    gap: 30px;
 }
 .titles-description{
     font-size: 20px;
@@ -130,7 +139,7 @@ nav ul li {
 
   
 .text-center{
-    padding-top: 0px;
+   
     text-align: center;
     font-weight: bold;
     font-size: 45px;
@@ -152,6 +161,27 @@ nav ul li {
     padding: 24px;
     box-shadow: 0px 5px 50px 0px #F2EDED;
    } 
+footer{
+    padding: 60px 150px 14px;
+display: flex;
+justify-content: space-between;
+gap: 100px;
+
+}
+.footer-coloumn{
+    width: 50%;
+}
+input[type="text"]{
+    width:100%;
+    height: 45px;
+    gap: 19px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    border: black;
+    padding: 10px 20px;
+    
+}
 
 
 
