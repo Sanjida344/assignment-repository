@@ -33,7 +33,7 @@ nav{
 }
 .nav-title {
     color:#4E47FF ;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: bolder;
 }
 nav ul li {
@@ -48,12 +48,13 @@ nav ul li {
     font-size: 16px;
     font-weight: bold;
     border: none;
+    border-radius: 10px;
 
     
 }
 .primary-clr:hover{
-    background-color: rgb(190, 28, 155);
-    box-shadow: rgb(240, 254, 255);
+    background-color: rgba(180, 29, 155, 0.892);
+    box-shadow: rgb(251, 240, 255);
     
 }
 .title{
@@ -161,52 +162,66 @@ nav ul li {
     padding: 24px;
     box-shadow: 0px 5px 50px 0px #F2EDED;
    } 
-.form{
-    margin: 0px 150px 14px; 
-    padding:  0px 71px;
-display: flex;
-justify-content: space-between ;
-gap: auto;
-width: 1140px;
-height: 623px;
-background-color: #F2EDED;
-text-align: center;
-
-} 
-
-.form input[type="text"],form input[type="email"], form textarea {
-    width:100%;
-    height: 45px;
-    gap: 19px;
-    /* border-radius: 10px; */
-    background-color: white;
-    display: block;
-    border: rgb(0, 0, 0);
-    padding: 5px 10px;
-   
-    
+.form-part{
+    max-width: 100%;
+    width: 1140px;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
 }
- .form-coloumn {
+form input{
+    width: 497px;
+    display: block;
+    align-items: center;
+    height: 70px;
+}
+.email-type,.text-type{
+    width: 497px;
+    height: 70px;
+    margin: 20px 0px 19px 0px ;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    background: white;
+}
+form textarea{
+    width: 497px;
+    height: 135px;
+    margin: 20px 0px 19px 0px;
+}
+.form-title{
+    color: black;
+    font-weight: 600;
+    font-size: 50px;
+    padding: 70px 100px 0px 150px;
+}
+input::placeholder{
+    padding: 20px 32px 20px 32px;
+    color: black;
+}
+textarea::placeholder{
+    padding: 20px 32px 20px 32px;
+    color: black;
+}
+.button{
     width: 497px;
     height: 62px;
-    padding: 101px 19px;
-    gap: 10px;
     border-radius: 10px;
-} 
+    background: rgb(78, 71, 255);
+    border: none;
+}
+input[type="submit"]{
+    padding: 19px 101px 19px 101px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
 
-#coloumn-title{
-    width: 528px;
-    height: 232px;
-    font-size: 92px;
-    font-weight: bold;
 }
-.numbers{
-    text-decoration: none;
-    font-style:none;
+.massage{
+    border: 1px solid rgb(214, 221, 237);
+    border-radius: 10px;
+    background: white;
+}
     
-   display: flex;
-   justify-content: space-around;
-}
 footer section{
 
     border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -250,5 +265,8 @@ a{
 
     
 }
-    
-   
+.button:hover{
+    background-color: rgba(180, 29, 155, 0.892);
+    box-shadow: rgb(251, 240, 255);
+}
+ 
